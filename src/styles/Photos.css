@@ -1,0 +1,13 @@
+.hoo{
+    background-color: black;
+    opacity: 100;
+    transition: opacity 0.25s ease;
+    /* transition: opacity 0.25s ease; */
+    text-align: center;
+    color: white;
+}
+.hoo:hover {
+    background-color: black;
+    opacity: 0;
+    
+  }
