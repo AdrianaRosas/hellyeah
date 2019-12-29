@@ -15,6 +15,7 @@ class Job extends React.Component {
        <div className=" gallery-album">
           <GalleryAlbum />
        </div>
+      
      </div>
         
     </div>

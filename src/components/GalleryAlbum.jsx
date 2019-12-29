@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM, { render } from "react-dom";
 import Cats from "../img/onecat.jpg";
-
 import '../styles/AlbumPhoto.css';
 
 
@@ -10,40 +9,97 @@ class GalleryPhoto extends React.Component {
     return (
       <div className="album-photos">
        <div className="one">
-       <div className="imagen"> 
-       <a href="#">
-        <img src={Cats}/>
-       </a>
-       <div class="texto">
-        <h2>Titular de la sección</h2>
-        <a href="#" title="#">enlace</a>
+         <div class="hovereffect">
+           <div class="overlay">
+             <h2>ALBUM UNO</h2>
+             <div className="link-here">
+              <p><a 
+              href="https://codepen.io/jayawiratha/pen/wWjZZp" 
+              target="_blank"
+              rel="noopener noreferrer">
+                LINK HERE</a></p> 
+             </div>
+             <img src={Cats} />
+           </div>
+         </div>
+         <div class="hovereffect">
+           <div class="overlay">
+             <h2>ALBUM UNO</h2>
+             <div className="link-here">
+				      <p><a href="#">LINK HERE</a></p> 
+             </div>
+             <img src={Cats} />
+           </div>
+         </div>
+         <div class="hovereffect">
+           <div class="overlay">
+             <h2>ALBUM UNO</h2>
+             <div className="link-here">
+				      <p><a href="#">LINK HERE</a></p> 
+             </div>
+             <img src={Cats} />
+           </div>
+         </div>
        </div>
-       </div> 
-       <div className="imagen"> 
-       <a href="#">
-        <img src={Cats}/>
-       </a>
-       <div class="texto">
-        <h2>Titular de la sección</h2>
-        <a href="#" title="#">enlace</a>
+       <div className="two">
+         <div class="hovereffect">
+           <div class="overlay">
+             <h2>ALBUM UNO</h2>
+             <div className="link-here">
+				      <p><a href="#">LINK HERE</a></p> 
+             </div>
+             <img src={Cats} />
+           </div>
+         </div>
+         <div class="hovereffect">
+           <div class="overlay">
+             <h2>ALBUM UNO</h2>
+             <div className="link-here">
+				      <p><a href="#">LINK HERE</a></p> 
+             </div>
+             <img src={Cats} />
+           </div>
+         </div>
+         <div class="hovereffect">
+           <div class="overlay">
+             <h2>ALBUM UNO</h2>
+             <div className="link-here">
+				      <p><a href="#">LINK HERE</a></p> 
+             </div>
+             <img src={Cats} />
+           </div>
+         </div>
        </div>
+       <div className="three">
+         <div class="hovereffect">
+           <div class="overlay">
+             <h2>ALBUM UNO</h2>
+             <div className="link-here">
+				      <p><a href="#">LINK HERE</a></p> 
+             </div>
+             <img src={Cats} />
+           </div>
+         </div>
+         <div class="hovereffect">
+           <div class="overlay">
+             <h2>ALBUM UNO</h2>
+             <div className="link-here">
+				      <p><a href="#">LINK HERE</a></p> 
+             </div>
+             <img src={Cats} />
+           </div>
+         </div>
+         <div class="hovereffect">
+           <div class="overlay">
+             <h2>ALBUM UNO</h2>
+             <div className="link-here">
+				      <p><a href="#">LINK HERE</a></p> 
+             </div>
+             <img src={Cats} />
+           </div>
+         </div>
        </div> 
-       <div className="imagen"> 
-       <a href="#">
-        <img src={Cats}/>
-       </a>
-       <div class="texto">
-        <h2>Titular de la sección</h2>
-        <a href="#" title="#">enlace</a>
-       </div>
-       </div> 
-       </div> 
-       <div className="one"> 
-       
-       </div>
-       <div className="one"> 
-       
-       </div> 
+        
     </div>
     )
   }

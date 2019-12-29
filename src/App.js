@@ -12,6 +12,9 @@ function App() {
     <section className="album-photo-container">
       <Job />
     </section>
+    <section className="contact">
+         
+         </section>
     
     </div>
   );

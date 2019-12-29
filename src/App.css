@@ -8,7 +8,15 @@
 .album-photo-container{
     margin: 0;
     width: 100vw;
+    height: 200vh;
+    overflow: hidden;
+    background-color: rgb(20, 220, 220);
+}
+
+.contact{
+    margin: 0;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-color: crimson;
+    background-color: rgb(59, 2, 14);
 }
