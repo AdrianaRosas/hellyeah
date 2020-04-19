@@ -1,22 +1,19 @@
 import React from 'react';
-import './App.css';
-import Home from './components/Home'
-import Job from './components/Job'
+import Header from './components/Header';
+import HomeSection from './components/HomeSection'
+import Sidebar from './components/Gallery/Sidebar'
 
 function App() {
   return (
-    <div className="elements">
-    <section className="home">
-    < Home />
-    </section>
-    <section className="album-photo-container">
-      <Job />
-    </section>
-    <section className="contact">
-         
-         </section>
-    
-    </div>
+    <>
+    <Header/>
+    <HomeSection/>
+    <Sidebar/>
+
+        
+     
+    </>
+
   );
 }
 
